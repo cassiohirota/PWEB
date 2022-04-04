@@ -1,0 +1,104 @@
+body {
+	margin:0px;
+	background-image: url("https://i.imgur.com/wi0w9Mc.jpg"); 
+	font-family:"Calibri", Arial, Verdana;
+	font-size:12px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+.todo {
+    width: 920px;
+	border: 1px black;
+	margin:20px auto;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    box-shadow: 8px 8px 5px grey;
+    background-color: white;
+}
+
+.cabecalho {
+    width: 920px;
+    height: 50px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    text-align: center;
+    background-color: rgb(44, 193, 223);
+}
+
+.meio{
+    width: 920px;
+	min-height: 600px;
+}
+
+.conteudo{
+    width: 80%;
+    height: 550px;
+    float: right;
+    margin: 2px 1px 2px 1px;
+}
+
+
+.container-box {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+.box {
+    background-color: #dddddd;
+    border-radius: 5px;
+    margin: var(--margin);
+    height: 100px;
+    border: 1px solid black;
+    box-shadow: 8px 8px 5px grey;
+    background: url("https://i.imgur.com/a9bSfTr.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.a{
+    width: calc((100%/3) - (var(--margin)* 2));
+    width: 75%;
+    margin-top: 50px;
+    margin-left: 50px;
+    font-size: 20px;
+    text-align: center;
+}
+
+.mini{
+    float: left;
+    width: 19%;
+    height: 20px;
+    margin-top: 20px;
+    margin-left: 4px;
+    font-size: 15px;
+    text-align: center;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
+img{
+    float: left;
+    height: 100px;
+    border-radius: 5px;
+}
+.rodape{
+    text-align: right;
+    margin-bottom: 5px;
+    padding-right: 15px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    background-color: rgb(44, 193, 223);
+}
+
+a:link {
+    text-decoration: none;
+  }
+  
+  a:visited {
+    text-decoration: none;
+  }
