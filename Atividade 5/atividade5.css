@@ -1,0 +1,87 @@
+body {
+	margin:0;
+	padding:0;
+	background-image: url("https://i.imgur.com/wi0w9Mc.jpg"); 
+	font-family:"Calibri", Arial, Verdana;
+	font-size:12px;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    
+    min-width: calc(50vh - 100px);
+}
+
+
+.cabecalho{
+    height: 70px;
+    width: 100%;
+    background-color: white;
+    text-align: center;
+    padding-top: 10px;
+    font-size:30px;
+    border-bottom: 2px solid black;
+}
+
+section{
+    display: flex;
+    min-height: calc(50vh - 100px);
+}
+
+nav{
+    width: 15%;
+    float: left;
+}
+
+nav a{
+    padding-top: 10px;
+    line-height: 1.5;
+    font-size: 15px;
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+    color: rgb(25, 112, 159);
+}
+
+a:hover{
+    color: white;
+}
+
+li{
+    list-style-type: none;
+}
+
+.container{
+    margin: 15px;
+    flex-direction: row;
+    max-width: 70%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.container a{
+    color: black;
+    text-decoration: none;
+}
+
+.item {
+    margin: 5px;
+    background-color: blanchedalmond;
+	font-size: 1.3em;
+    text-align: center;
+    font-weight: bold;
+    flex-wrap: nowrap;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    box-shadow: 8px 8px 5px grey;
+}
+
+img{
+    display: flex;
+    height: 200px;
+}
+
+@media screen and (max-width: 500px){
+    nav{
+    flex: auto;
+    }
+}
