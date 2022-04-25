@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Atividade 6 - Operações</title>
+</head>
+<body>
+    <script>
+    var num1, num2;
+
+    num1 = parseFloat(prompt("Digite o valor 1:"));
+    num2 = parseFloat(prompt("Digite o valor 2:"));
+
+    var decisao = confirm("Continuar?");
+    if(decisao){
+        alert("Soma: " + (num1 + num2));
+        alert("Subtração: " + (num1 - num2));
+        alert("Produto: " + (num1 * num2));
+        alert("Divisão: " + (num1 / num2));
+        alert("Resto da Divisão: " + (num1 % num2));       
+    }
+    else{
+        alert("Cálculo cancelado");
+    }
+
+    
+    
+    </script>
+</body>
+</html>
