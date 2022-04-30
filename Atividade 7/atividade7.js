@@ -2,9 +2,6 @@ var tipo;
 var escolha1 = prompt("Escolha as opções\n 1 - Pedra \n 2 - Papel \n 3 - Tesoura");
 var escolha2 = Math.random();
 
-if(escolha1 < 1 && escolha1 > 3)
-    alert("Digite valores entre 1 a 3!");
-
 if (escolha1 == 1)
 tipo = "Pedra";
 if (escolha1 == 2)
