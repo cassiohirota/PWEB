@@ -13,9 +13,6 @@ tipo = "Tesoura";
 
 var escolha2 = Math.random();
 
-// Tesoura <= 0.33
-// Papel <= 0.66
-// Pedra <= 0.99
 if (escolha2 <= 0.33)
     escolha2 = "Pedra";
 if (escolha2 <= 0.66)
