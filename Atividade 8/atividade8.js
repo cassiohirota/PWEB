@@ -50,7 +50,7 @@ opiniaoBO = ((opiniaoBO/cont) * 100).toPrecision(2);
 alert("Média de idade: " + (mediaIdade) + "\n" +
       "Idade do entrevistado mais velho: " + maisVelho + "\n" + 
       "Idade do entrevistado mais novo: " + maisNovo + "\n" + 
-      "Quantidade dos entrevistados que avaliaram o filme com péssimo: " + opiniaoPessimo + "\n" + 
+      "Quantidade dos entrevistados que avaliaram o filme como péssimo: " + opiniaoPessimo + "\n" + 
       "Porcentagem dos entrevistados que avaliaram o filme como bom ou ótimo: " + opiniaoBO + "%\n" + 
       "Número de entrevistados masculino: " + sexoM + "\n" + 
       "Número de entrevistados feminino: " + sexoF);
