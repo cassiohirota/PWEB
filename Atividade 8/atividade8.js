@@ -7,6 +7,8 @@ var idade, maisVelho, maisNovo;
 cont = mediaIdade = sexoM = sexoF = opiniaoPessimo = opiniaoBO = 0;
 
 do{
+    if (cont == 45)
+        break;
     idade = parseInt(prompt("Digite a sua idade"));
 
     if(idade > maisVelho)
@@ -41,7 +43,7 @@ do{
 
     if (cont == 1)
         maisVelho = maisNovo = idade;
-        
+    
 }while (numPesquisa != 0);
 
 mediaIdade = parseInt(mediaIdade/cont);
