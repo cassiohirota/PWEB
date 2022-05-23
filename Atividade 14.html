@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Atividade 14</title>
+    <script src="atividade 14.js"></script>
+</head>
+<body>
+
+    <h1 align=center>Formulário Principal</h1>
+    <form action="teste" method="POST" name="formulario1" id="formulario1" onsubmit="return validarDados();">
+
+        <div id="principal" width=200 heigth=200 align=left>
+            Nome Completo:<br> 
+            <input name="idNome" type="text" id="idNome" size="52" maxlength="150">
+            <br>
+            <br> E-Mail :<br> 
+            <input name="idEmail" type="email" id="idEmail" size="52" maxlength="150">
+            <br>
+            <br> Mensagem :<br> 
+            <textarea name="idMensagem" cols="50" rows="8" id="idMensagem" value="" input></textarea>
+            <br>
+            <br>
+            <br>
+            <input name="Submit" type="submit" form="formulario1" value="Submit">
+            <input name="Reset" type="reset" form="formulario1" value="Redefinir">
+        </div>
+    </form>
+</body>
+</html>
